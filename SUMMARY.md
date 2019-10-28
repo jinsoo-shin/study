@@ -29,11 +29,11 @@
 
 ## 면접스터디 <a id="undefined-3"></a>
 
+* [스터디 숙제 정리](undefined-3/study_hw.md)
 * [싱글톤 패턴](undefined-3/singletone.md)
 * [퀵정렬](undefined-3/quick_sort.md)
 * [버블](undefined-3/bubble_sort.md)
-* [2일차](undefined-3/study_hw.md)
-* [제네릭](undefined-3/undefined-3.md)
+* [제네릭](undefined-3/generic.md)
 * [리스트List](undefined-3/list.md)
 * [큐,스택](undefined-3/queue_stack.md)
 
