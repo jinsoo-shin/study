@@ -1,4 +1,4 @@
-# 리스트List
+# 리스트List\_D2
 
 ## ArrayList
 
