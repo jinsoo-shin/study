@@ -1,6 +1,6 @@
 # Table of contents
 
-* [한전 붙자 아자아자](README.md)
+* [공부 정리](README.md)
 
 ## 오답노트 <a id="undefined-2"></a>
 
