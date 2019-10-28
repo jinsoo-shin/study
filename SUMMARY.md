@@ -33,4 +33,5 @@
 * [퀵정렬](undefined-3/undefined-1.md)
 * [버블](undefined-3/undefined-2.md)
 * [2일차](undefined-3/2.md)
+* [제네릭](undefined-3/undefined-3.md)
 
