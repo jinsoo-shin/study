@@ -4,7 +4,7 @@
 
 ## 오답노트 <a id="undefined-2"></a>
 
-* [엑셀함수](undefined-2/undefined.md)
+* [엑셀함수](undefined-2/excel.md)
 * [hlookup,vlookup](undefined-2/hlookup-vlookup.md)
 
 ## DB
@@ -14,18 +14,18 @@
 
 ## 운영체제
 
-* [운영체제](undefined/undefined.md)
-* [프로세스 & 스레드](undefined/and.md)
+* [운영체제](undefined/os.md)
+* [프로세스 & 스레드](undefined/process_thread.md)
 * [Unix](undefined/unix.md)
-* [소프트웨어 생명 주기 모형](undefined/undefined-2.md)
-* [객체지향](undefined/undefined-1.md)
+* [소프트웨어 생명 주기 모형](undefined/sw.md)
+* [객체지향](undefined/object.md)
 
 ## 통신 <a id="undefined-1"></a>
 
-* [데이터 통신 시스템](undefined-1/untitled.md)
-* [패킷](undefined-1/undefined.md)
-* [LAN & 이더넷](undefined-1/lan-and.md)
-* [계층](undefined-1/undefined-1.md)
+* [데이터 통신 시스템](undefined-1/data.md)
+* [패킷](undefined-1/packet.md)
+* [LAN & 이더넷](undefined-1/lan_ethernet.md)
+* [계층](undefined-1/hierachical.md)
 
 ## 면접스터디 <a id="undefined-3"></a>
 
