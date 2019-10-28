@@ -1,6 +1,6 @@
 # 큐,스택
 
-# 큐 Queue
+## 큐 Queue
 
 > 큐는 FIFO(First-In-First-Out)의 순서를 따른다.
 >
@@ -23,7 +23,7 @@
 
 
 
-# 스택 Stack
+## 스택 Stack
 
 스택은 말 그대로 데이터를 쌓아 올린다는 의미
 
