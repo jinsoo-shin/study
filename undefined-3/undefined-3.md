@@ -1,4 +1,4 @@
-# 제네릭 
+# 제네릭
 
 ### 왜 쓰는가?
 
@@ -14,7 +14,7 @@
 >
 > 실행 시 타입 에러가 나는 것보다 컴파일 시에 미리 타입을 강하게 체크해서 에러를 사전에 방지하는 것이 좋다.
 >
-> #### 2. 타입 변환(casting)을 제거한다
+> #### 2. 타입 변환\(casting\)을 제거한다
 >
 > 비제네릭 코드는 불필요한 타입 변환을 하기 때문에 프로그램 성능에 악영향을 미친다.
 >
@@ -40,13 +40,13 @@
 >
 > ```java
 > public class Node{
-> 	private Object object;
-> 	public void set(Object object){
-> 		this.object =object;
-> 	}
-> 	public Object get() {
-> 		return object;
-> 	}
+>     private Object object;
+>     public void set(Object object){
+>         this.object =object;
+>     }
+>     public Object get() {
+>         return object;
+>     }
 > }
 > ```
 >
@@ -60,13 +60,13 @@
 >
 > ```java
 > public class Node<T>{
-> 	private T object;
-> 	public void set(T object){
-> 		this.object =object;
-> 	}
-> 	public T get() {
-> 		return object;
-> 	}
+>     private T object;
+>     public void set(T object){
+>         this.object =object;
+>     }
+>     public T get() {
+>         return object;
+>     }
 > }
 > ```
 >
@@ -78,13 +78,13 @@
 >
 > ```java
 > public class Node<String>{
-> 	private String object;
-> 	public void set(String object){
-> 		this.object =object;
-> 	}
-> 	public String get() {
-> 		return object;
-> 	}
+>     private String object;
+>     public void set(String object){
+>         this.object =object;
+>     }
+>     public String get() {
+>         return object;
+>     }
 > }
 > ```
 >
@@ -93,8 +93,6 @@
 > node.set("hello");
 > String str = node.get(); // 타입 변환이 발생하지 않는다.
 > ```
->
-> 
 >
 > 이와 같이 제네릭은 클래스를 설계할 때 구체적인 타입을 명시하지 않고, 타입 파라미터로 대체했다가 실제 클래스가 사용될 때 구체적인 타입을 지정함으로써 타입 변환을 최소화시킨다.
 
@@ -106,19 +104,19 @@
 > public class Node<T, M>{
 > private T x;
 > private M y;
-> 
+>
 > public T getX(){
-> 	return this.x;
+>     return this.x;
 > }
 > public M getY(){
-> 	return this.y;
+>     return this.y;
 > }
-> 
+>
 > public void setX(T x){
-> 	this.x = x;
+>     this.x = x;
 > }
 > public void setY(M y){
-> 	this.y = y;
+>     this.y = y;
 > }
 > }
 > ```
@@ -129,7 +127,7 @@
 >
 > ```java
 > public class Sample{
-> 	public <T> Node <T> func(T t){
+>     public <T> Node <T> func(T t){
 >      Node<T> node = new Node<T>;
 >      node.set(t);
 >      return node;
@@ -137,17 +135,13 @@
 > }
 > ```
 >
-> 
->
 > ```java
 > Node<Integer> node = Sample.<Integer>func(100);
 > int value = node.get();
-> 
+>
 > Node<String> node = Sample.func("abc");
 > String value = node.get();
 > ```
-
-
 
 ## 제한된 타입 파라미터
 
@@ -155,18 +149,17 @@
 >
 > 타입 파라미터에 지정되는 구체적인 타입을 제한할 필요가 종종 있다.
 >
-> 예를 들어 숫자를 연산하는 제네릭 메소드는 매개값으로 Number 타입 또는 하위 클래스 타입(Byte, Short, Long...)의 인스턴스를 가져야 한다.
+> 예를 들어 숫자를 연산하는 제네릭 메소드는 매개값으로 Number 타입 또는 하위 클래스 타입\(Byte, Short, Long...\)의 인스턴스를 가져야 한다.
 >
 > ```java
 > public <T extends 상위타입> 리턴타입 메소드(매개변수,....) {.....}
 > ```
 >
-> ```
+> ```text
 > public <T extends Number> int compare(T t1, T t2){
-> 	double v1 = t1.doubleValue(); //Number의 doubleValue() 메소드 사용
-> 	double v2 = t2.doubleValue();
-> 	return Double.comapre(v1,v2);
+>     double v1 = t1.doubleValue(); //Number의 doubleValue() 메소드 사용
+>     double v2 = t2.doubleValue();
+>     return Double.comapre(v1,v2);
 > }
 > ```
->
-> 
+
