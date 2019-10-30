@@ -36,4 +36,6 @@
 * [제네릭\_D2](study/generic.md)
 * [리스트List\_D2](study/list.md)
 * [큐,스택\_D2](study/queue_stack.md)
+* [multithread\_D3](study/multithread_d3.md)
+* [GarbageCollections\_D3](study/garbagecollections_d3.md)
 
