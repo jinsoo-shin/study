@@ -1,4 +1,4 @@
-# GarbageCollections\_D3
+# 가비지컬렉션
 
 ## 개요
 
