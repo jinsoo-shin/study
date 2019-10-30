@@ -39,4 +39,6 @@
 * [멀티스레드](study/undefined.md)
 * [가비지컬렉션](study/garbagecollections_d3.md)
 * [multithread](study/multithread.md)
+* [java](study/java.md)
+* [factorypattern](study/factorypattern.md)
 
