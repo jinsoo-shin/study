@@ -6,7 +6,7 @@
 >
 > 스레드는 같은 프로세스에 속한 다른 스레드와 코드, 데이터 섹션, 그리고 열린 파일이나 신호와 같은 운영체제 자원들을 공유한다.
 >
-> ![image-20191029230111676](C:\Users\jinsoo\AppData\Roaming\Typora\typora-user-images\image-20191029230111676.png)
+
 >
 > ## 동기(Motivation)
 >
