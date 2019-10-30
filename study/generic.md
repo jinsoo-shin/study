@@ -163,3 +163,14 @@
 > }
 > ```
 
+super는 extends의 반대  
+&lt;T super double&gt;면  
+NUMBER
+
+
+
+wildcard ?  
+generic의아래  
+제네릭보다 조금 불안정함  
+function만 쓸 경우엔 타입체크에 자원 소모를 덜함.
+
