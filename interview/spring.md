@@ -48,5 +48,11 @@
 
 하는 3가지 부분으로 나눔으로서, 데이터와 화면간의 의존관계를 벗어날 수 있게하는 개발 기법입니다.  
   
+**22\) Servlet vs JSP**
+
+- Servlet : 자바 언어로 웹 개발을 위해 만들어진 것으로, Container가 이해할 수 있게 구성된 순수 자바코드로만 이루어진 것
+
+- JSP : html 기반에 JAVA 코드를 블록화하여 삽입한 것으로 Servlet을 좀 더 쉽게 접근할 수 있도록 만들어 진 것  
+  
 출처: [https://js2prince.tistory.com/entry/java-경력-기술-면접-질문-리스트](https://js2prince.tistory.com/entry/java-%EA%B2%BD%EB%A0%A5-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%A6%AC%EC%8A%A4%ED%8A%B8) \[개발은 전투다\]
 
