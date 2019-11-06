@@ -56,3 +56,45 @@
   
 출처: [https://js2prince.tistory.com/entry/java-경력-기술-면접-질문-리스트](https://js2prince.tistory.com/entry/java-%EA%B2%BD%EB%A0%A5-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%A6%AC%EC%8A%A4%ED%8A%B8) \[개발은 전투다\]
 
+
+
+
+
+### DAO data access object 
+
+DB를 사용해 데이터를 조회하거나 조작하는 기능을 담당하는 것  
+싱글톤패턴
+
+statement ㅇㅇ
+
+
+
+### DTO
+
+Data Transfer Object의 줄임말이다. VO\(Value Object\)라고도 표현하는데, 계층간 데이터 교환을 위한 자바빈즈\(Java Beans\)  
+get setter가 여기있
+
+DTO는 Database에서 Data를 얻어 Service나 Controller 등으로 보낼 때 사용하는 객체
+
+### Service
+
+Service에 대해서 살펴보자. Service는 비지니스 로직이 들어가는 부분이다. Controller가 Request를 받으면 적절한 Service에 전달하고, 전달 받은 Service는 비즈니스 로직을 처리한다. DAO로 데이터베이스를 접근하고, DTO로 데이터를 전달받은 다음, 적절한 처리를 해 반환한다.
+
+
+
+**3. MVVM\(Model - View - ViewModel\)**
+
+ViewModel 뷰모델 말그대로 View를 나타내주기 위한 Model이라고 생각하면 된다. View보다는 Model과 유사하게 디자인 되며, View의 바인딩 될 때 가장 강력하다. 
+
+MVP와 같이 View에서 입력이 처리된다.
+
+MVVM 패턴의 가장 큰 **장점**이라 함은 **Command**와 **Data Binding**으로 MVP 패턴과 달리 **View와의 의존성을 완벽히 분리** 할 수 있다는 장점이 있다.
+
+Command를 통하여 Behavior를 View의 특정한 ViewAction\(Event\)와 연결할 수 있으며, ViewModel의 속성과 특정 View의 속성을 Binding 시켜 줌으로써 ViewModel 속성이 변경 될때마다 View를 업데이트 시켜줄 수 있다.  
+  
+출처: [https://hackersstudy.tistory.com/71](https://hackersstudy.tistory.com/71) \[공대인들이 직접쓰는 컴퓨터공부방\]
+
+
+
+
+
