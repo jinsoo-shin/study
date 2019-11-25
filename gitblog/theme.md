@@ -10,11 +10,18 @@
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-> 실행하기
+![](../.gitbook/assets/image%20%2821%29.png)
 
+> blog / themes / \_config.yml
+
+{% code title="\_config.yml 수정" %}
 ```text
-hexo server
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: hipaper
 ```
+{% endcode %}
 
-![](../.gitbook/assets/image%20%282%29.png)
+
 
