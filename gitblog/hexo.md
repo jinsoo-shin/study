@@ -18,7 +18,7 @@ npm install
 
 ## 3. git repository 생성하기
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 > git 연동하기
 >
@@ -27,7 +27,7 @@ npm install
 > git remote add origin https://github.com/jinsoo-shin/jinsoo-shin.github.io.git
 > ```
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 ## 4. npm 설치
 
@@ -35,11 +35,11 @@ npm install
 npm install
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 폴더 구조
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 
 
