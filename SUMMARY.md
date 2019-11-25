@@ -56,3 +56,10 @@
 * [Algorithm](undefined/algorithm.md)
 * [Floyd](undefined/floyd.md)
 
+## gitblog 만들기
+
+* [npm 설치](gitblog/npm.md)
+* [hexo 설정하기](gitblog/hexo.md)
+* [theme 적용하기](gitblog/theme.md)
+* [hexo 기본](gitblog/hexo-1.md)
+
