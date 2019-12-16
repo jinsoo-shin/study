@@ -10,7 +10,7 @@
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 > blog / themes / \_config.yml
 
