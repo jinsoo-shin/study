@@ -74,5 +74,5 @@
 
 ## project
 
-* [Untitled](project/untitled.md)
+* [이유는 모르겠지만 vue-cli가 에러났음](project/untitled.md)
 
